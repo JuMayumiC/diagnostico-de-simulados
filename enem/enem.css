@@ -46,7 +46,7 @@ section img {
     display: flex;
     max-width: 25%; /* Ajuste o tamanho máximo conforme necessário */
     top: 50%; /* Move a imagem para o centro vertical da seção */
-    right: 10px; /* Define uma distância de 10px à direita da seção */
+    right: 30px; /* Define uma distância de 10px à direita da seção */
     transform: translateY(-50%); /* Ajusta para centralizar verticalmente */
 }
 
@@ -64,7 +64,7 @@ section img {
     display: flex;
     max-width: 20%; /* Ajuste o tamanho máximo conforme necessário */
     top: 50%; /* Move a imagem para o centro vertical da seção */
-    right: 10px; /* Define uma distância de 10px à direita da seção */
+    right: 30px; /* Define uma distância de 10px à direita da seção */
     transform: translateY(230%); /* Ajusta para centralizar verticalmente */
 }
 
@@ -82,7 +82,7 @@ section img {
     display: flex;
     max-width: 20%; /* Ajuste o tamanho máximo conforme necessário */
     top: 50%; /* Move a imagem para o centro vertical da seção */
-    right: 10px; /* Define uma distância de 10px à direita da seção */
+    right: 30px; /* Define uma distância de 10px à direita da seção */
     transform: translateY(570%); /* Ajusta para centralizar verticalmente */
 }
 
@@ -90,7 +90,7 @@ section img {
     position: absolute;
     display: flex;
     max-width: 20%; /* Ajuste o tamanho máximo conforme necessário */
-    top: 50%; /* Move a imagem para o centro vertical da seção */
+    top: 40%; /* Move a imagem para o centro vertical da seção */
     left: 10px; /* Define uma distância de 10px à direita da seção */
     transform: translateY(600%); /* Ajusta para centralizar verticalmente */
 }

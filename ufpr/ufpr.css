@@ -54,7 +54,7 @@ section p {
     display: flex;
     max-width: 25%;
     top: 50%;
-    right: 10px;
+    right: 100px;
     transform: translateY(-50%);
 }
 
@@ -63,7 +63,7 @@ section p {
     display: flex;
     max-width: 25%;
     top: 50%;
-    left: 10px;
+    left: 0px;
     transform: translateY(50%);
 }
 
