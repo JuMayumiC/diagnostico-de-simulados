@@ -40,6 +40,23 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
+.shinobu {
+    position: absolute;
+    display: flex;
+    max-width: 27%; /* Ajuste o tamanho máximo conforme necessário */
+    top: 50%; /* Move a imagem para o centro vertical da seção */
+    right: -50px; /* Define uma distância de 10px à direita da seção */
+    transform: translateY(-70%); /* Ajusta para centralizar verticalmente */
+}
+
+.shinobu2 {
+    position: absolute;
+    display: flex;
+    max-width: 25%; /* Ajuste o tamanho máximo conforme necessário */
+    top: 50%; /* Move a imagem para o centro vertical da seção */
+    left: -50px; /* Define uma distância de 10px à direita da seção */
+    transform: translateY(-30%); /* Ajusta para centralizar verticalmente */
+}
 
 section {
     position: relative; /* Adiciona uma posição relativa à seção para posicionar a imagem */
