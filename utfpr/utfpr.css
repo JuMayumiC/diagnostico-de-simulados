@@ -1,0 +1,85 @@
+body {
+    font-family: 'Monocraft', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1; /* Alterada para a cor de fundo suave da nova paleta */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #8478bf; /* Alterada para a cor de destaque no cabeçalho da nova paleta */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #bbabdb; /* Alterada para a cor de fundo do conteúdo principal da nova paleta */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background-color: #8478bf; /* Alterada para a cor de fundo suave para seções da nova paleta */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #ffeb8e; /* Alterada para a cor do título para seções da nova paleta */
+}
+
+ul.star-list li {
+    color: #ffeb8e; /* Alterada para a cor do texto das listas para seções da nova paleta */
+}
+
+li {
+    color: #ffeb8e; /* Alterada para a cor do texto das listas para seções da nova paleta */
+}
+
+.genya {
+    position: absolute;
+    display: flex;
+    max-width: 20%;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%) translateX(-70%);
+}
+
+.sanemi {
+    position: absolute;
+    display: flex;
+    max-width: 25%;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%) translateX(-10%);
+}
+
+.kanae-kanao-shinobu {
+    position: absolute;
+    display: flex;
+    max-width: 35%;
+    top: 50%;
+    left: 10px;
+    transform: translateY(45%) translateX(-10%);
+}
+
+footer {
+    background-color: #8478bf; /* Alterada para a cor de destaque no rodapé da nova paleta */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}

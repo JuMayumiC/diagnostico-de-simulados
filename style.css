@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Boldins';
+    src: url(Boldins.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Monocraft';
+    src: url(Monocraft.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Monocraft', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0a6dc; /* Cor de fundo suave - alterada para a .color5 */
+}
+
+header {
+    background-color: #855082; /* Cor inspirada no anime - alterada para a .color3 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+main {
+    min-width: 800px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c289be; /* Cor de fundo do conteúdo principal - alterada para a .color4 */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+section {
+    position: relative; /* Adiciona uma posição relativa à seção para posicionar a imagem */
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color:#a36da0; /* Cor de fundo suave para seções - alterada para a .color2 */
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
+}
+
+section img {
+    position: absolute;
+    display: flex;
+    max-width: 25%; /* Ajuste o tamanho máximo conforme necessário */
+    top: 50%; /* Move a imagem para o centro vertical da seção */
+    right: 10px; /* Define uma distância de 10px à direita da seção */
+    transform: translateY(-50%); /* Ajusta para centralizar verticalmente */
+}
+
+section:hover {
+    background-color: #e0a6dc; /* Cor de destaque ao passar o mouse - alterada para a .color3 */
+    cursor: pointer;
+}
+h2 {
+    color: #663364; /* Cor do título - alterada para a .color1 */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #855082; /* Cor do link inspirada no anime - alterada para a .color2 */
+    font-weight: bold;
+}
+
+footer {
+    background-color: #a36da0; /* Cor de destaque no rodapé inspirada no anime - alterada para a .color3 */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
