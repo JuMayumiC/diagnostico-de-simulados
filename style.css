@@ -45,7 +45,7 @@ main {
     display: flex;
     max-width: 27%; /* Ajuste o tamanho máximo conforme necessário */
     top: 50%; /* Move a imagem para o centro vertical da seção */
-    right: -50px; /* Define uma distância de 10px à direita da seção */
+    right: 0px; /* Define uma distância de 10px à direita da seção */
     transform: translateY(-70%); /* Ajusta para centralizar verticalmente */
 }
 
@@ -54,7 +54,7 @@ main {
     display: flex;
     max-width: 25%; /* Ajuste o tamanho máximo conforme necessário */
     top: 50%; /* Move a imagem para o centro vertical da seção */
-    left: -50px; /* Define uma distância de 10px à direita da seção */
+    left: -40px; /* Define uma distância de 10px à direita da seção */
     transform: translateY(-30%); /* Ajusta para centralizar verticalmente */
 }
 
