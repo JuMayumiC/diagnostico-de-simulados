@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Diagnóstico de Simulados</title>
     <script>
         // Função para alternar a visibilidade das seções
@@ -12,44 +12,40 @@
             section.style.display = (section.style.display === 'none' || section.style.display === '') ? 'block' : 'none';
         }
     </script>
-    
 </head>
 <body>
-    
     <header>
         <h1><a href="index.html">Simulados da Mayu🦋</a></h1>
     </header>
 
     <main>
-        <img class="shinobu" src="img/shinobu.png" alt="Shinobu Kocho">
+        <img class="shinobu" src="assets/img/shinobu.png" alt="Shinobu Kocho" />
         <section onclick="toggleSection('enem-section')">
             <h2>ENEM</h2>
             <ul id="enem-section" style="display: none;">
-                <img src="img/tanjiro.png" alt="Tanjiro Kamado">
+                <img src="assets/img/tanjiro.png" alt="Tanjiro Kamado" />
                 <li><a href="enem/enem-s1.html">1º Simulado ENEM</a></li>
             </ul>
-        </section >
+        </section>
         <section onclick="toggleSection('ufpr-section')">
             <h2>UFPR</h2>
             <ul id="ufpr-section" style="display: none;">
-                <img src="img/inosuke.png" alt="Inosuke Hashibira">
+                <img src="assets/img/inosuke.png" alt="Inosuke Hashibira" />
                 <li><a href="ufpr/ufpr-s1.html">1º Simulado UFPR</a></li>
             </ul>
         </section>
         <section onclick="toggleSection('utfpr-section')">
             <h2>UTFPR</h2>
             <ul id="utfpr-section" style="display: none;">
-                <img src="img/zenitsu.png" alt="Zenitsu Agatsuma">
+                <img src="assets/img/zenitsu.png" alt="Zenitsu Agatsuma" />
                 <li><a href="utfpr/utfpr-s1.html">1º Simulado UTFPR</a></li>
             </ul>
         </section>
-        <img class="shinobu2" src="img/shinobuplimplim.png" alt="Shinobu Kocho">
+        <img class="shinobu2" src="assets/img/shinobuplimplim.png" alt="Shinobu Kocho" />
     </main>
 
     <footer>
         <p>Desenvolvido por Mayumi</p>
     </footer>
-
-    
 </body>
 </html>

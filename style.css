@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Boldins';
-    src: url(Boldins.ttf) format('truetype');
+    src: url(assets/Boldins.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Monocraft';
-    src: url(Monocraft.ttf) format('truetype');
+    src: url(assets/Monocraft.ttf) format('truetype');
 }
 
 body {
